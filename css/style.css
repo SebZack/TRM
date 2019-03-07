@@ -1,6 +1,11 @@
 h1
 {
-    color: green;
+    color: black;
+}
+
+p
+{
+  color: black;
 }
 
 .bodyColor {
@@ -36,6 +41,28 @@ h1
     background-image: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00bfff, #0000ff, #8000ff, #ff00ff, #ff0000);
     padding: 0 !important;
     
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	color: white !important;
+	font-weight: 600;
+}
+
+.fa-bars
+{
+	color: white;
+	font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+	outline: none !important;
 }
 
 .wave
@@ -109,4 +136,9 @@ h1
     100% {
       opacity:1;
     }
+}
+
+.footer
+{
+  padding-top: 70px;
 }
