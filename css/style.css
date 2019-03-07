@@ -28,17 +28,20 @@ h1
 	background-image: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00bfff, #0000ff, #8000ff, #ff00ff, #ff0000);
 	color: white;
     padding-top: 5%;
-    height: 60%;
+    
 }
 
 .navbar
 {
     background-image: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00bfff, #0000ff, #8000ff, #ff00ff, #ff0000);
+    padding: 0 !important;
+    
 }
 
-.wave-img
+.wave
 {
-    padding-top: 8%;
+    padding-top: 10%;
+    background-image: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00bfff, #0000ff, #8000ff, #ff00ff, #ff0000);
     width: 100%;
 }
 
@@ -47,4 +50,63 @@ h1
     padding-left: 20px;
     height: 20px;
     
+}
+
+@keyframes fadeIn
+  to { 
+     opacity: 1; 
+}
+
+.fade-in {
+    animation: fadeIn 1.0s ease forwards;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
 }
