@@ -88,6 +88,13 @@ p
     background-image: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #00ff00, #00bfff, #0000ff, #8000ff, #ff00ff, #ff0000);
     width: 100%;
 }
+/*Info*/
+
+.info
+{
+  padding-top: 3%;
+}
+
 
 .footer
 {
