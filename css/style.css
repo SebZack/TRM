@@ -107,6 +107,11 @@ p
   width: 70%;
 }
 
+.zacke-logo
+{
+  width: 70%;
+}
+
 /*Animation*/
 
 @keyframes fadeIn
